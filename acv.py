@@ -7,6 +7,13 @@ def acv():
 
     df = pd.read_csv("ACV.csv",encoding='utf-8', parse_dates=['Fecha'])
 
+    med=st.selectbox('Medico',['Requejo','Fernandez','Autogestion','Zafra','Fariñas','Martinez Leon','Mondragon'])
+    df_filtrado_medico = df[df['Medico']== med]
+    with st.container(border=True):
+        st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
+    with st.container(border=True):
+        st.metric('Total Huecos Bloquedos',value=int(df_filtrado_medico["Bloqueos"].sum()))
+
     col1,col2 =st.columns(2)
 
     
@@ -53,19 +60,13 @@ def acv():
                 mensaje=st.success('Los datos se han guardado corecctamente')
 
                         
-        st.write(df["Bloqueos"].sum())
-        fecha2=df["Fecha"].iloc[0]
-        fecha1=df["Fecha"].iloc[4]
-        st.write(fecha1-fecha2)
 
     with col2:
-        st.subheader("Notificaiones")
+        st.subheader("Notificaciones")
 
         huecos=int(df["Bloqueos"].sum())
 
-        fecha2=(df["Fecha"].iloc[0])
-        fecha=fecha2.strftime("%d/%m/%Y")
         medico=(df["Medico"].iloc[0])
-        st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo es el : {medico}")
-    fecha1=df["Fecha"].iloc[4]
-    st.write(fecha1-fecha2)
+        st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo corresponde a: {medico}")
+
+
