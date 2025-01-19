@@ -7,16 +7,19 @@ def cot():
 
 
     df = pd.read_csv("COT.csv",encoding='utf-8', parse_dates=['Fecha'])
+    col3,col4 = st.columns([2, 1])
+    with col3:
+        med=st.selectbox('Medico',['Aguilella','Calatayud','Cortes','Chismol','De La Torre','Fernandez','Magraner','Maruenda'])
+        df_filtrado_medico = df[df['Medico']== med]
+        with st.container(border=True):
+            st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
+    with col4:
+        st.subheader('Datos')
+        with st.container(border=True):
+            st.metric('Total Huecos Bloquedos',value=int(df_filtrado_medico["Bloqueos"].sum()))
 
-    med=st.selectbox('Medico',['Aguilella','Calatayud','Cortes','Chismol','De La Torre','Fernandez','Magraner','Maruenda'])
-    df_filtrado_medico = df[df['Medico']== med]
-    with st.container(border=True):
-        st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
-    with st.container(border=True):
-        st.metric('Total Huecos Bloquedos',value=int(df_filtrado_medico["Bloqueos"].sum()))
 
-
-    col1,col2 =st.columns(2)
+    col1,col2 =st.columns([2,1])
 
     
     with col1:
