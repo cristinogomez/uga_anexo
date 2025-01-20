@@ -9,7 +9,8 @@ def cot():
     df = pd.read_csv("COT.csv",encoding='utf-8', parse_dates=['Fecha'])
     col3,col4 = st.columns([2, 1])
     with col3:
-        med=st.selectbox('Medico',['Aguilella','Calatayud','Cortes','Chismol','De La Torre','Fernandez','Magraner','Maruenda','Fargueta'])
+        med=st.selectbox('Medico',['Aguilella','Calatayud','Cortes','Chismol','De La Torre','Fernandez','Magraner','Maruenda','Fargueta'
+                                  ,'Revert','Bermell','Garcia','Villar','Soler','Castejon','Orts','Martorell','Planes'])
         df_filtrado_medico = df[df['Medico']== med]
         with st.container(border=True):
             st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
@@ -37,17 +38,8 @@ def cot():
                                                         "Fecha": st.column_config.DateColumn("Fecha del bloqueo",format="DD/MM/YYYY"),
                                                         "Medico": st.column_config.SelectboxColumn(
                                                         "Facultativo",
-                                                        options=[
-                                                                "Aguilella",
-                                                                "CAlatayud",
-                                                                "Fernandez",
-                                                                "Garcia",
-                                                                "Chismol",
-                                                                "Revert",
-                                                                "Magraner",
-                                                                "Maruenda",
-                                                                "Bermell"
-                                                                ],
+                                                        options=['Aguilella','Calatayud','Cortes','Chismol','De La Torre','Fernandez','Magraner','Maruenda','Fargueta'
+                                                                  ,'Revert','Bermell','Garcia','Villar','Soler','Castejon','Orts','Martorell','Planes'],
                                                                 ),
                                                         "Bloqueos":st.column_config.NumberColumn("Número de huecos bloqueados",
                                                                                                 min_value=0,
