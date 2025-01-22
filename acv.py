@@ -6,7 +6,7 @@ def acv():
 
 
     df = pd.read_csv("ACV.csv",encoding='utf-8',sep=';',parse_dates=['Fecha'])
-    df['Fecha']= pd.to_datetime(df['Fecha'])
+    
     col3,col4 = st.columns([2, 1])
     with col3:
         med=st.selectbox('Medico',['Requejo','Fernandez','Autogestion','Zafra','Fariñas','Martinez Leon','Mondragon'])
