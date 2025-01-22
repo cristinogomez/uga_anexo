@@ -64,20 +64,18 @@ def cot():
 
     with col2:
         st.subheader("Notificaiones")
-
         huecos=int(df["Bloqueos"].sum())
     
         medico=(df["Medico"].iloc[0])
-        st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo correspponde a: {medico}")
+        st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo corresponde a: {medico}")
 
         df['Fecha']= pd.to_datetime(df['Fecha'])
-
         fechaTarget = dt.date.today()+dt.timedelta (days = 15)
 
-
         df_filtrado=df[df['Fecha']<= str(fechaTarget)]
+        st.text('Huecos bloquedos que se deben citar:')
         with st.container(border=True):
-            st.text('Huecos bloquedos que se deben citar:')
+        
             st.dataframe(df_filtrado,hide_index=True)
 
 
