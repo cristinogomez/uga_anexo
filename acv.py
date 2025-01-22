@@ -5,7 +5,7 @@ def acv():
     st.subheader("Bloqueos Agendas ACV")
 
 
-    df = pd.read_csv("COT.csv",encoding='utf-8', parse_dates=['Fecha'])
+    df = pd.read_csv("ACV.csv",encoding='utf-8', parse_dates=['Fecha'])
     
     col3,col4 = st.columns([2, 1])
     with col3:
