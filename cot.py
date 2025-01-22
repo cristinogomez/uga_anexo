@@ -1,5 +1,7 @@
 
 import streamlit as st
+import datetime as dt
+from datetime import datetime
 import pandas as pd
 
 def cot():    
@@ -68,3 +70,5 @@ def cot():
         medico=(df["Medico"].iloc[0])
         st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo correspponde a: {medico}")
 
+        fechaFinal = dt.date.today()
+        fechaDelta = dt.timedelta (days = 7)
