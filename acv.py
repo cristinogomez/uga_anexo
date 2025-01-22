@@ -10,7 +10,7 @@ def acv():
     col3,col4 = st.columns([2, 1])
     with col3:
         med=st.selectbox('Medico',['Requejo','Fernandez','Autogestion','Zafra','Fariñas','Martinez Leon','Mondragon'])
-        df_filtrado_medico = df[df['Medico']== med]
+        df_filtrado_medico = df[df['Medico']== med].head()
         with st.container(border=True):
             st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
     with col4:
