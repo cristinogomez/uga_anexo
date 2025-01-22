@@ -67,4 +67,4 @@ def cot():
     
         medico=(df["Medico"].iloc[0])
         st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo correspponde a: {medico}")
-    fecha1=df["Fecha"].iloc[4]
+
