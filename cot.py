@@ -70,5 +70,13 @@ def cot():
         medico=(df["Medico"].iloc[0])
         st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo correspponde a: {medico}")
 
-        fechaFinal = dt.date.today()
-        fechaDelta = dt.timedelta (days = 7)
+        df['Fecha']= pd.to_datetime(df['Fecha'])
+
+        fechaTarget = dt.date.today()+dt.timedelta (days = 15)
+
+
+        df_filtrado=df[df['Fecha']<= str(fechaTarget)]
+        with st.container(border=True):
+            st.dataframe(df_filtrado,hide_index=True)
+
+
