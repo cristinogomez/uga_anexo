@@ -70,7 +70,7 @@ def cot():
         st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo corresponde a: {medico}")
 
         df['Fecha']= pd.to_datetime(df['Fecha'])
-        fechaTarget = dt.date.today()+dt.timedelta (days = 15)
+        fechaTarget = dt.date.today()+dt.timedelta (days = 7)
 
         df_filtrado=df[df['Fecha']<= str(fechaTarget)]
         st.text('Huecos bloquedos que se deben citar:')
