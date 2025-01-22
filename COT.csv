@@ -1,14 +1,11 @@
-Fecha,Medico,Agenda,Bloqueos
-2025-02-03,Fernandez,Lunes-Mañana,1.0
-2025-02-03,Aguilella,Lunes-Tarde,2.0
-2025-02-04,Garcia,Martes-Tarde,2.0
-2025-02-05,Aguilella,Jueves-Tarde,2.0
-2025-02-10,Magraner,Lunes-Mañana,2.0
-2025-02-10,Revert,Lunes-Tarde,2.0
-2025-02-11,Maruenda,Martes-Mañana,2.0
-2025-02-11,Chismol,Martes-Tarde,3.0
-2025-02-13,Chismol,Jueves-Mañana,1.0
-2025-02-17,Chismol,Lunes-Mañana,2.0
-2025-02-17,Maruenda,Lunes-Tarde,2.0
-2025-02-18,Fernandez,Martes-Mañana,2.0
-2025-02-20,Revert,Jueves-Mañana,2.0
+﻿Fecha,Medico,Agenda,Bloqueos
+2025-02-03,Calatayud,Lunes-Mañana,1
+2025-02-03,De La Torre,Lunes-Mañana,2
+2025-02-03,Orts,Lunes-Mañana,2
+2025-02-03,Magraner,Lunes-Tarde,2
+2025-02-03,Villar,Lunes-Tarde,2
+2025-02-04,De La Torre,Martes-Mañana,2
+2025-02-04,Calatayud,Martes-Tarde,2
+2025-02-04,Orts,Martes-Tarde,2
+2025-02-05,Castejon,Miercoles-Mañana,1
+2025-02-05,Martorell,Miercoles-Mañana,2
