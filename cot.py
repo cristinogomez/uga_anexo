@@ -77,6 +77,7 @@ def cot():
 
         df_filtrado=df[df['Fecha']<= str(fechaTarget)]
         with st.container(border=True):
+            st.text('Huecos bloquedos que se deben citar:')
             st.dataframe(df_filtrado,hide_index=True)
 
 
