@@ -11,7 +11,7 @@ def acv():
     col3,col4 = st.columns([2, 1])
     with col3:
         med=st.selectbox('Medico',['Requejo','Fernandez','Autogestion','Zafra','Fariñas','Martinez Leon','Mondragon'])
-        df['Fecha'] = df['Fecha'].dt.strftime('%d-%m-%Y')
+        df['Fecha'] = df['Fecha'].dt.strftime('%d/%m/%Y')
         df_filtrado_medico = df[df['Medico']== med].head()
         
         with st.container(border=True):
