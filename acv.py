@@ -27,7 +27,7 @@ def acv():
     with col1:
 
         #df = pd.read_csv("ACV.csv",encoding='utf-8', parse_dates=['Fecha'])
-
+         df['Fecha']= pd.to_datetime(df['Fecha'])
         df_mask = df["Bloqueos"] >0
         filtered_df = df[df_mask]
 
