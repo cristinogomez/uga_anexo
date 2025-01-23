@@ -12,7 +12,7 @@ def acv():
     with col3:
         med=st.selectbox('Medico',['Requejo','Fernandez','Autogestion','Zafra','Fariñas','Martinez Leon','Mondragon'])
         df_filtrado_medico = df[df['Medico']== med].head()
-        df_filtrado_medico['Fecha'] = df_filtrado_medico['Fecha'].dt.strftime('%d-%m-%Y')
+        
         with st.container(border=True):
             st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
     with col4:
