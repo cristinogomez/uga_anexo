@@ -15,6 +15,7 @@ def cot():
                                   ,'Revert','Bermell','Garcia','Villar','Soler','Castejon','Orts','Martorell','Planes'])
         df_filtrado_medico = df[df['Medico']== med]
         with st.container(border=True):
+            df_filtrado_medico.to_string()
             st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
     with col4:
         st.subheader('Datos')
