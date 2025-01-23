@@ -1,9 +1,12 @@
-Fecha,Medico,Agenda,Bloqueos
-2025-02-03,Requejo,Lunes-Mañana,1
-2025-02-03,Autogestion,Lunes-Tarde,15
-2025-02-04,Fernandez,Martes-Mañana,0
-2025-02-04,Zafra,Martes-Tarde,3
-2025-02-05,Fariñas,Miercoles-Mañana,0
-2025-02-06,Martinez Leon,Jueves,0
-2025-02-06,Autogestion,Jueves-Tarde,15
+﻿Fecha,Medico,Agenda,Bloqueos
+2025-02-03,Autogestion,Lunes-Tarde,12
+2025-02-06,Autogestion,Jueves-Tarde,14
 2025-02-07,Mondragon,Viernes-Mañana,1
+2025-02-10,Requejo,Lunes-Mañana,3
+2025-02-10,Autogestion,Lunes-Tarde,15
+2025-02-11,Fernandez,Lunes-Mañana,2
+2025-02-11,Zafra,Lunes-Tarde,2
+2025-02-18,Fernandez,Martes-Mañana,2
+2025-02-20,Martinez Leon,Jueves-Mañana,2
+2025-01-20,Autogestion,Jueves-Tarde,15
+2025-02-24,Autogestion,Lunes-Tarde,9
