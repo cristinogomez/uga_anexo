@@ -16,7 +16,7 @@ def cot():
         df_filtrado_medico = df[df['Medico']== med]
         with st.container(border=True):
             
-            st.dataframe(df_filtrado_medico.to_string(),hide_index=True,use_container_width=800)
+            st.dataframe(df_filtrado_medico,hide_index=True,use_container_width=800)
     with col4:
         st.subheader('Datos')
         with st.container(border=True):
