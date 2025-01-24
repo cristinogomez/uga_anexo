@@ -76,9 +76,9 @@ def cot():
         df_filtrado=df[df['Fecha']<= str(fechaTarget)]
         
         st.text('Huecos bloquedos que se deben citar:')
-        with st.container(border=True,height=1000):
+        with st.container(border=True):
             st.dataframe(df_filtrado,hide_index=True)
         df_bloqueosbymedico=df.groupby(['Medico'])['Bloqueos'].sum()
         st.text('Número de bloqueos por médico:')
-        with st.container(border=True,height=1000):
+        with st.container(border=True):
             st.dataframe(df_bloqueosbymedico,hide_index=False)
