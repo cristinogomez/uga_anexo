@@ -70,3 +70,14 @@ def acv():
 
         medico=(df["Medico"].iloc[0])
         st.info(f"Total número de citas bloqueados: {huecos}. El primer hueco bloquedo corresponde a: {medico}")
+                df['Fecha']= pd.to_datetime(df['Fecha'])
+        fechaTarget = dt.date.today()+dt.timedelta (days = 7)
+
+        df_filtrado=df[df['Fecha']<= str(fechaTarget)]
+        
+        st.text('Huecos bloquedos que se deben citar:')
+        with st.container(border=True):
+            st.dataframe(df_filtrado,
+                        column_config={
+                        "Fecha": st.column_config.DateColumn("Fecha del bloqueo",format="DD/MM/YYYY")}
+                        ,hide_index=True)    
