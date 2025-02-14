@@ -20,9 +20,12 @@ def acv():
                                     "Fecha": st.column_config.DateColumn("Fecha del bloqueo",format="DD/MM/YYYY")}
                         ,hide_index=True,use_container_width=800)
     with col4:
-        st.subheader("Datos")
+      st.subheader('Observaciones:')
         with st.container(border=True):
-            st.metric('Total Huecos Bloquedos',value=int(df_filtrado_medico["Bloqueos"].sum()))
+            #st.metric('Total Huecos Bloquedos',value=int(df_filtrado_medico["Bloqueos"].sum()))
+                st.caption('Estructura Agenda COT-:blue[Primeras]')
+                st.text("Agenda Mañana\nHorarios Primeras:\n09:20-09:50-10:30-11:00-11:40-12:20-12:30")
+                st.text("Agenda Tarde\nHorarios Primeras:\n16:00-16:10-17:00-17:40-17:50")
 
     col1,col2 =st.columns([2, 1])
 
