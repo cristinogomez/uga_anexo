@@ -1,4 +1,3 @@
-
 import streamlit as st
 import datetime as dt
 from datetime import datetime
@@ -58,7 +57,6 @@ def cot():
                 st.rerun()
 
     with col2:
-        st.subheader("Observaciones:")
         huecos=int(df["Bloqueos"].sum())
         st.text('Estructura Agenda COT-Primeras')
     
@@ -76,8 +74,3 @@ def cot():
                         column_config={
                         "Fecha": st.column_config.DateColumn("Fecha del bloqueo",format="DD/MM/YYYY")}
                         ,hide_index=True)
-        df_bloqueosbymedico=df.groupby(['Medico'])['Bloqueos'].sum()
-        st.text('Número de bloqueos por médico:')
-        dfPrueba=df_bloqueosbymedico.T
-        with st.container(border=True):
-            st.table(dfPrueba)
