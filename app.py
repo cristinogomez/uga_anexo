@@ -20,8 +20,8 @@ def main():
         #opcion2=st.sidebar.selectbox('COT',menu2)
         #if opcion2=='CRUD-Bloqueos':
             cot()
-    else:
-        acv()   
+    elif choice == 'ACV':
+            acv()   
 
 
 if __name__=='__main__':
