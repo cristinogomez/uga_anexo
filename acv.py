@@ -23,8 +23,8 @@ def acv():
       with st.container(border=True):
             #st.metric('Total Huecos Bloquedos',value=int(df_filtrado_medico["Bloqueos"].sum()))
                 st.caption('Estructura Agenda COT-:blue[Primeras]')
-                st.text("Agenda Mañana\nHorarios Primeras:\n09:20-09:50-10:30-11:00-11:40-12:20-12:30")
-                st.text("Agenda Tarde\nHorarios Primeras:\n16:00-16:10-17:00-17:40-17:50")
+                st.text("Agenda Mañana\nHorarios Primeras:\n09:00-09:40-10:40-11:20-12:20-13:00")
+                st.text("Agenda Tarde\nHorarios Primeras:\n15:30-16:00-16:45-17:15-18:00-18:30")
 
     col1,col2 =st.columns([2, 1])
 
