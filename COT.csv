@@ -1,12 +1,8 @@
 ﻿Fecha,Medico,Agenda,Bloqueos
-2025-03-31,Planes,Lunes-Mañana,1
-2025-03-31,Magraner,Lunes-Tarde,2
 2025-04-01,Fargueta,Martes-Mañana,2
-2025-04-01,Planes,Martes-Tarde,2
-2025-04-01,Bermell,Martes-Tarde,2
+2025-04-01,Bermell,Martes-Tarde,1
 2025-04-02,Aguilella,Miercoles-Mañana,2
 2025-04-03,Martorell,Miercoles-Mañana,2
-2025-04-02,Cortes,Miercoles-Tarde,2
 2025-04-02,Fargueta,Miercoles-Tarde,2
 2025-04-03,Bermell,Jueves-Mañana,2
 2025-04-03,Castejon,Jueves-Tarde,2
@@ -38,7 +34,7 @@
 2025-04-14,Orts,Lunes-Mañana,1
 2025-04-14,Planes,Lunes-Mañana,2
 2025-04-14,Garcia,Lunes-Tarde,2
-2025-04-15,Fargueta,Martes-Mañana,2
+2025-04-15,Fargueta,Martes-Mañana,1
 2025-04-15,Fernandez,Martes-Mañana,2
 2025-04-15,Revert,Martes-Mañana,1
 2025-04-15,Planes,Martes-Tarde,2
