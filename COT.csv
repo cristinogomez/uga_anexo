@@ -1,14 +1,7 @@
 ﻿Fecha,Medico,Agenda,Bloqueos
-2025-04-11,Magraner,Viernes-Mañana,2
-2025-04-11,Garcia,Viernes-Mañana,2
-2025-04-15,Fargueta,Martes-Mañana,1
-2025-04-14,Fargueta,Miercoles-Tarde,1
-2025-04-29,Fargueta,Martes-Mañana,2
-2025-04-29,Orts,Martes-Tarde,2
-2025-04-30,Aguilella,Miercoles-Mañana,2
+2025-04-30,Aguilella,Miercoles-Mañana,1
 2025-04-30,Castejon,Miercoles-Mañana,2
-2025-04-30,Martorell,Miercoles-Mañana,2
-2025-04-30,Revert,Miercoles-Tarde,2
+2025-04-30,Revert,Miercoles-Tarde,1
 2025-04-30,Soler,Miercoles-Tarde,1
 2025-05-05,Calatayud,Lunes-Mañana,2
 2025-05-05,Orts,Lunes-Mañana,2
@@ -17,14 +10,11 @@
 2025-05-06,Fargueta,Martes-Mañana,2
 2025-05-06,Revert,Martes-Mañana,2
 2025-05-06,Planes,Martes-Tarde,2
-2025-05-06,Bermell,Martes-Tarde,2
+2025-05-06,Bermell,Martes-Tarde,1
 2025-05-07,Aguilella,Miercoles-Mañana,2
 2025-05-07,Martorell,Miercoles-Mañana,2
-2025-05-07,Cortes,Miercoles-Tarde,2
-2025-05-08,Soler,Jueves-Mañana,2
+2025-05-07,Cortes,Miercoles-Tarde,1
 2025-05-09,Magraner,Viernes-Mañana,2
-2025-05-09,Villar,Viernes-Mañana,2
-2025-05-09,Garcia,Viernes-Mañana,1
 2025-05-12,Calatayud,Lunes-Mañana,2
 2025-05-12,Orts,Lunes-Mañana,2
 2025-05-12,Planes,Lunes-Mañana,2
@@ -36,14 +26,12 @@
 2025-05-13,Orts,Martes-Tarde,2
 2025-05-14,Aguilella,Miercoles-Mañana,2
 2025-05-14,Castejon,Miercoles-Mañana,3
-2025-05-14,Maruenda,Miercoles-Mañana,2
 2025-05-14,Martorell,Miercoles-Mañana,2
 2025-05-14,Cortes,Miercoles-Tarde,2
 2025-05-15,Cortes,Jueves-Mañana,2
-2025-05-15,Bermell,Jueves-Mañana,2
-2025-05-15,Maruenda,Jueves-Mañana,2
+2025-05-15,Bermell,Jueves-Mañana,1
 2025-05-16,Magraner,Viernes-Mañana,2
-2025-05-16,Garcia,Viernes-Mañana,2
+2025-05-16,Garcia,Viernes-Mañana,1
 2025-05-19,Calatayud,Lunes-Mañana,2
 2025-05-19,Orts,Lunes-Mañana,2
 2025-05-19,Planes,Lunes-Mañana,2
@@ -54,9 +42,9 @@
 2025-05-21,Castejon,Miercoles-Mañana,3
 2025-05-21,Martorell,Miercoles-Mañana,2
 2025-05-21,Revert,Miercoles-Tarde,5
-2025-05-21,Soler,Miercoles-Tarde,5
+2025-05-21,Soler,Miercoles-Tarde,4
 2025-05-22,Soler,Jueves-Mañana,1
-2025-05-22,Bermell,Jueves-Mañana,2
+2025-05-22,Bermell,Jueves-Mañana,1
 2025-05-22,Castejon,Jueves-Tarde,5
 2025-05-23,Magraner,Viernes-Mañana,2
 2025-05-23,Villar,Viernes-Mañana,1
@@ -72,7 +60,6 @@
 2025-05-27,Orts,Martes-Tarde,2
 2025-05-28,Aguilella,Miercoles-Mañana,2
 2025-05-28,Castejon,Miercoles-Mañana,3
-2025-05-28,Maruenda,Miercoles-Mañana,1
 2025-05-28,Martorell,Miercoles-Mañana,2
 2025-05-28,Revert,Miercoles-Tarde,2
 2025-05-28,Soler,Miercoles-Tarde,2
@@ -81,4 +68,8 @@
 2025-05-29,Maruenda,Jueves-Tarde,2
 2025-05-30,Chismol,Viernes-Mañana,3
 2025-05-30,Magraner,Viernes-Mañana,2
-2025-05-30,Garcia,Viernes-Mañana,2
+2025-05-30,Garcia,Viernes-Mañana,1
+2025-05-15,De La Torre,Jueves-Mañana,5
+2025-05-26,De La Torre,Lunes-Mañana,7
+2025-05-29,De La Torre,Martes-Mañana,7
+2025-05-05,Fargueta,Lunes-Mañana,2
